@@ -1,0 +1,144 @@
+
+*{
+  margin:0;
+  box-sizing:border-box;
+}
+
+body{
+  margin:0px;
+}
+
+
+#navbar{
+  background-color:rgba(245, 84, 84, 0.8);
+  height:60px;
+}
+
+nav{
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+  flex:wrap;
+}
+nav ul li{
+  display: inline;
+  font-size:20px;
+  font-family: OCR A Std, monospace	;
+  margin:30px;
+
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+}
+.image{
+
+  height:40px;
+  width:35px;
+  object-fit: fill;
+
+}
+.body-section{
+  flex-direction: column;
+  display: flex;
+}
+.pic-section{
+  background-image: url("Images/pexels-robin-stickel-70497.jpg");
+  height:100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.lorem-section{
+  background-image: linear-gradient(to right,#FDE0B4, #FFE5B4,#FFDAB9,#FFCBC4);
+  height:100vh;
+  width:50vw;
+  flex-shrink: 0;
+  
+}
+h1{
+
+
+  padding:140px 29px 0 40px;
+  /*
+  top:50%;
+  bottom:50%;
+  transform:translate(-50%,-50%);
+  */
+  
+}
+p{
+  padding:70px 29px 0 40px;
+  font-family:inherit;
+  font-size: 20px;
+  text-align:justify;
+
+}
+
+button{
+  background-color:#f47983;
+  color:white;
+  border-radius: 0.5px;
+  border: none;
+  height:35px;
+  width:167px;
+  margin:70px 0 0 40px;
+}
+
+/* footer section */
+
+.footer-section{
+  background-image: linear-gradient(to right,#FDE0B4, #FFE5B4,#FFDAB9,#FFCBC4);
+  margin:10px;
+  height:100vh;
+  display: flex;
+
+}
+.first-part{
+  display: flex;
+  width:50%;
+  position:relative;
+  flex-wrap: wrap;
+  margin:85px 80px 50px 80px;
+
+}
+
+.image-one{
+  height:190px;
+  width:250px;
+  margin:12px;
+}
+.image-two{
+
+  height:190px;
+  width:250px;
+  margin:12px;
+}
+.image-three{
+  height:190px;
+  width:250px;
+  margin:12px;
+}
+.second-part{
+  background-color: rgba(245, 84, 84, 0.8);
+  width:34vw;
+  height:45vh;
+  text-align: center;
+  margin:185px 80px 50px -120px;
+  
+
+}
+h5{
+  text-align: left;
+  padding: 20px 7px 7px 20px;
+}
+
+.para{
+    font-weight: bold;
+    font-size: 50px;
+    padding: 10px 0 0 15px;
+
+}
+
+.arrow{
+  padding:25px 0 0 15px;
+}
